@@ -12,6 +12,8 @@ This assumes you have Yarn 1.x. If you like npm, go ahead, change the script to 
 ## Usage
 `tsinit <your-project-name>`
 
+Run this in the directory below which you want your project to be made (this creates a new folder with `<your-project-name>` in that directory)
+
 No options, no flags, no extra arguments, no help messages. All it does is run Yarn/npm to install a bunch of dev dependencies, and then copy some text into configuration files. Everything is `@latest`.
 
 Add this script somewhere in your `PATH` and make it executable with `sudo chmod +x /path/to/tsinit`.
