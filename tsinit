@@ -8,6 +8,8 @@ scripts  () {
   echo "\"test\": \"jest\""
 }
 
+# Okay I lied, there's one flag: Use this if you only want to
+# print out the recommended package.json scripts to stdout.
 if [[ "$2" == "--scriptsOnly" ]]; then {
   scripts
   exit 0;
